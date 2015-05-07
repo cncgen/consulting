@@ -9,7 +9,7 @@ Author URL: http://shapebootstrap.net
 *******Typography******
 **************************/
 body {
-  padding-top: 100px;
+  padding-top: 70px;
   background: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -158,6 +158,7 @@ ul.nostyle i {
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
+  height: 70px;
 }
 .navbar.navbar-default .navbar-toggle {
   margin-top: 32px;
@@ -228,6 +229,7 @@ ul.nostyle i {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
+  opacity: 0.8;
 }
 #main-slider .slider-inner {
   position: absolute;
@@ -235,20 +237,31 @@ ul.nostyle i {
   left: 0;
   width: 100%;
   height: 100%;
-  color: #fff;
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+
 }
 #main-slider .slider-inner h2 {
   margin-top: 180px;
   font-size: 36px;
   line-height: 1;
   text-transform: uppercase;
-  color: #fff;
+  color: black;
+
 }
 #main-slider .slider-inner h2 > span {
   color: #45aed6;
 }
 #main-slider .slider-inner .btn {
   margin-top: 10px;
+  background-color: skyblue;
+  font-size: 26px;
+  text-transform: uppercase;
+  border: 3px solid skyblue;
+  opacity: 0.9;
+  box-shadow: 20px solid;
+  border-radius: 10px;
 }
 #main-slider .owl-prev,
 #main-slider .owl-next {
@@ -772,15 +785,15 @@ ul.nostyle i {
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #fff;
 }
-#get-in-touch {
+#contacto {
   padding: 100px 0 50px;
   background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   color: #fff;
 }
-#get-in-touch h1,
-#get-in-touch h2 {
+#contacto h1,
+#contacto h2 {
   color: #fff;
 }
 #blog {
